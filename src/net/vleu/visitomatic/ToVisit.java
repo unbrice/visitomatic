@@ -28,8 +28,8 @@ import java.lang.annotation.Target;
  * Those fields or methods, part of a {@link Visitable}, are visited by a
  * {@link Visitor}.<br />
  * The order in which elements are visited depend on the
- * {@link ToVisit#value()} attribute.
- * @see ToVisit#value()
+ * {@link ToVisit#position()} attribute.
+ * @see ToVisit#position()
  * @see Visitable
  */
 @Documented
